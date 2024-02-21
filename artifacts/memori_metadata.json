@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "omk",
+						"type": "string"
+					}
+				],
+				"name": "display1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "a",
+						"type": "int256"
+					}
+				],
+				"name": "display2",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"storage_memory.sol": "memori"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"storage_memory.sol": {
+			"keccak256": "0x79c65647ec4508a1afd195e182d135bbe783d0596da402ab3b9d70c860561af8",
+			"license": "unlicensed",
+			"urls": [
+				"bzz-raw://831da82825356e7bf91115ab18a97d60f80f393b6065dff673414a208a87212e",
+				"dweb:/ipfs/QmVMrXC9eLYNG3Td9za8bYAtmGEkeMXWVi3SXEDAG2tfFG"
+			]
+		}
+	},
+	"version": 1
+}

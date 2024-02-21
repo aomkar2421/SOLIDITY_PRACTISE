@@ -1,0 +1,88 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "allStu",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "sname",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sid",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "sname2",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "sid2",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"structprac.sol": "def"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"structprac.sol": {
+			"keccak256": "0xacb969e1ffcd357f4b9436dd4d01af4c54b4e1213ca99c8debd0dd353f985404",
+			"license": "unlicensed",
+			"urls": [
+				"bzz-raw://965c029f6ea9a6e7033aaa8d16e86afab2b3ce17f51063e92fae6cfc1dde5b56",
+				"dweb:/ipfs/QmShfjyvv2hMqaB11XGmspHVyHEeF5qHW4kFJ2j8ZE1jqE"
+			]
+		}
+	},
+	"version": 1
+}
