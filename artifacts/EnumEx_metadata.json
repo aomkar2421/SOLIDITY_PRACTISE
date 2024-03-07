@@ -7,33 +7,33 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "b",
+				"name": "s",
 				"outputs": [
 					{
-						"internalType": "bytes",
+						"internalType": "enum EnumEx.Status",
 						"name": "",
-						"type": "bytes"
+						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "pushValue",
+				"inputs": [
+					{
+						"internalType": "enum EnumEx.Status",
+						"name": "_s",
+						"type": "uint8"
+					}
+				],
+				"name": "setValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "bytes",
-						"name": "val",
-						"type": "bytes"
-					}
-				],
-				"name": "setValue",
+				"inputs": [],
+				"name": "setValue2",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -52,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"23_DynamicBytes.sol": "dynamic"
+			"24_Enums.sol": "EnumEx"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -66,12 +66,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"23_DynamicBytes.sol": {
-			"keccak256": "0x39151b4b83837e08e8fa735485b75f31a05778a6f2bf4ff60dffc284e4473027",
+		"24_Enums.sol": {
+			"keccak256": "0xca9d45204142596206cb04d6b11ca59acf9a1ca3b3f39b10a9afd8872cd426d5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fdaaa58e56743aadafbd00192bbe19e121d523e122a907b4a6f5ad6c952e03cf",
-				"dweb:/ipfs/QmSEohu5rWzvdRzijdJvFPF4JubgTxpzuu31UkYcm64Hms"
+				"bzz-raw://097736b2fd17975504021501bdbd0dc6e66136e716a907037dcdbb0e6c5cbafa",
+				"dweb:/ipfs/QmaiWQ6ahKg4omwLeS1rkUp3p5XjzHmpZSh7dG4tj6gzPs"
 			]
 		}
 	},
