@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "acc",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "bal",
+						"type": "uint256"
+					}
+				],
+				"name": "checkBalance",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "func1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"28_event.sol": "Events"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"28_event.sol": {
+			"keccak256": "0x9638b0ab7f770d1bcef323fd1a55a9ff8a40ef9d548a95812676c0dc1824d262",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ac01b173f8f5159afe342544bbbad14d606db175b72140897ef01b27ac61a827",
+				"dweb:/ipfs/QmbKY4exgNSmE4TT9zA1m6E9THvGqFEQovfo43E3KK7TBi"
+			]
+		}
+	},
+	"version": 1
+}

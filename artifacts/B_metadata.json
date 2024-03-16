@@ -7,46 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "a1",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "check1",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "pure",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "check2",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -71,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"27_visibility.sol": "B"
+			"30_parentoverride.sol": "B"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -85,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"27_visibility.sol": {
-			"keccak256": "0x32bab1f0cdd8c45bd74e306643d4cac9659178bdd3389837639022490bc819ab",
+		"30_parentoverride.sol": {
+			"keccak256": "0x46be975eaad5177c18fcc73f1f33de07ce2ff50954df7081690f187fe8b358e5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e122bb55063b28ebe424c24238a89c358578e0a41ddc07b65a4fc0b8ce55c18f",
-				"dweb:/ipfs/QmY28aEnWe93yvKTKjxkHdARMLXyaFErfLUoC5N29qUKhq"
+				"bzz-raw://b92b5a761fec13d3a866d32e6ecf31d00d8cc17e3e285afddc310f28757f4649",
+				"dweb:/ipfs/QmYocVY184dde5zw5vw7THfRvJjYaPtscXt5j6LsHEnNyu"
 			]
 		}
 	},
