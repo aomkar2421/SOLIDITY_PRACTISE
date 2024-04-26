@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "chechBal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "check",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"37_payable.sol": "payableXmpl"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"37_payable.sol": {
+			"keccak256": "0x6bf166d8af8e24b58b2687d6d032e22fe6642c247b416608f03fe8f5c1741918",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ccf1689261fd7d53fc0b3e48e988fe7266ed5c5ebbfce6f44b7ab59ec363a866",
+				"dweb:/ipfs/QmbkwU1qGAzHXBghwm8H68goWGX8dUhKA1rCWpQB6x8kvT"
+			]
+		}
+	},
+	"version": 1
+}
