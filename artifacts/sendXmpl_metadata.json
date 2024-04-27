@@ -1,0 +1,115 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "val",
+						"type": "uint256"
+					}
+				],
+				"name": "ev",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "callEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "chechBal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "sendEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "add",
+						"type": "address"
+					}
+				],
+				"name": "transferEth",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"40_send.sol": "sendXmpl"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"40_send.sol": {
+			"keccak256": "0x50c1ca87286385161e04c901b2b17b7e3f424f40905651b21abb4835023377a2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c9e2973ed70c321164766133c1f998b7c603a07ea27c91045fff5d0aa4340c60",
+				"dweb:/ipfs/QmVUicjeHzYA6RjjVwBNU4CsE6WRxsXqWLUqyLDQSpEyLw"
+			]
+		}
+	},
+	"version": 1
+}
